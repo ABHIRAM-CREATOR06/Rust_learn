@@ -1,4 +1,4 @@
-fn main(){
+pub fn stack(){
     println!("WELCOME TO RUST DSA LEARN PART-1");
     println!("I WILL BE USING MY DSA IN KNOWLEDGE IN C AND WORK IN RUST");
     println!("PUSH,POP,OPERATION IN STACK");
