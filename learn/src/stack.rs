@@ -50,8 +50,9 @@ fn pop(stack: &mut Vec<i32>){
         println!("UNDERFLOW");
     }
     else{
-        let poped=stack.remove(0); //prints last elements and sets up second number as first
-        println!("POPPED ELEMENT: {}", poped);
+        if let Some(poped) = stack.pop() {
+            println!("POPPED ELEMENT: {}", poped);
+        }
     }
 }
 
