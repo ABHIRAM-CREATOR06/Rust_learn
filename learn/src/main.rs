@@ -50,8 +50,11 @@ fn pop(stack: &mut Vec<i32>){
         println!("UNDERFLOW");
     }
     else{
-        if let Some(poped) = stack.pop() {
-            println!("POPPED ELEMENT: {}", poped);
+        if let Some(poped)=stack.pop(){
+            println!("Popped element: {}",poped);
+        }
+        else{
+            println!("runtime error");
         }
     }
 }
